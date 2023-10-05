@@ -9,14 +9,10 @@
     margin-top: -5px;
 }
 
-#app > img {
-    width: 64px;
-}
-
 #app > h2 {
     align-self: flex-start;
-    margin-top: 84px;
-    margin-bottom: 24px;
+    margin-top: 64px;
+    margin-bottom: 16px;
 }
 
 #app > p {
