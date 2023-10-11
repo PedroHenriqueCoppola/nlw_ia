@@ -32,13 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Inteligência Artificial
 - Git e Github
 
-<img src="./assets/html5.svg" alt="html5" width="40" height="40"/>
-<img src="./assets/css3.svg" alt="css3" width="40" height="40"/>
-<img src="./assets/figma.svg" alt="figma" width="40" height="40"/>
-<img src="./assets/javascript.svg" alt="javascript" width="40" height="40"/>
-<img src="./assets/nodejs.svg" alt="nodejs" width="40" height="40"/>
-<img src="./assets/git.svg" alt="git" width="40" height="40"/>
-<img src="./assets/github.svg" alt="github" width="40" height="40"/>
+<img src="./assets/html5.svg" alt="html5" width="40" height="40"/> <img src="./assets/css3.svg" alt="css3" width="40" height="40"/> <img src="./assets/figma.svg" alt="figma" width="40" height="40"/> <img src="./assets/javascript.svg" alt="javascript" width="40" height="40"/> <img src="./assets/nodejs.svg" alt="nodejs" width="40" height="40"/> <img src="./assets/git.svg" alt="git" width="40" height="40"/> <img src="./assets/github.svg" alt="github" width="40" height="40"/>
 
 
 ## 💻 Projeto
