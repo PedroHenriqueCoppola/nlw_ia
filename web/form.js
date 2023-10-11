@@ -1,8 +1,8 @@
 import { server } from "./server.js";
 
-const form = document.querySelector('#form')
-const input = document.querySelector("#url")
-const content = document.querySelector("#content")
+const form = document.querySelector("#form");
+const input = document.querySelector("#url");
+const content = document.querySelector("#content");
 
 form.addEventListener("submit", async (event) => {
     event.preventDefault();
@@ -14,19 +14,19 @@ form.addEventListener("submit", async (event) => {
         return (content.textContent = "Esse vídeo não parece ser um short.");
     }
 
-    const [, params] = videoURL.split("/shorts/");
+    const [_, params] = videoURL.split("/shorts/");
     const [videoID] = params.split("?si");
 
     content.textContent = "Obtendo o texto do áudio...";
 
     const transcription = await server.get("/summary/" + videoID);
 
-    content.textContent = "Realizando o resumo..."
+    content.textContent = "Realizando o resumo...";
 
-    /*const summary = await server.post("/summary", {
+    const summary = await server.post("/summary", {
         text: transcription.data.result,
-    })*/
-  
-    content.textContent = transcription.data.result
-    content.classList.remove("placeholder")
+    });
+
+    content.textContent = summary.data.result;
+    content.classList.remove("placeholder");
 });
